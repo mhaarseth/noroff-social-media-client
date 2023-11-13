@@ -6,7 +6,9 @@ describe("login", () => {
     cy.wait(500);
     cy.get("#registerPassword").type("invalidPassword");
     cy.wait(500);
-    cy.get('button[data-auth="login"]').first().click({ force: true });
+    cy.get("#registerForm > div.modal-footer > button.btn.btn-outline-success")
+      .first()
+      .click({ force: true });
     cy.wait(500);
     cy.get("#loginEmail").type("noroff@stud.noroff.no");
     cy.wait(500);
