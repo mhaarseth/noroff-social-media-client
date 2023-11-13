@@ -6,10 +6,8 @@ describe("login", () => {
     cy.wait(500);
     cy.get("#registerPassword").type("invalidPassword");
     cy.wait(500);
-    cy.get("#registerForm > div.modal-footer > button.btn.btn-outline-success")
-      .eq(0)
-      .click({ force: true });
-    cy.wait(500);
+    cy.get("#registerModal").contains("Login").click();
+    cy.get("#loginForm").should("be.visible");
     cy.get("#loginEmail").type("noroff@stud.noroff.no");
     cy.wait(500);
     cy.get("#loginPassword").type("invalidPassword{enter}");
