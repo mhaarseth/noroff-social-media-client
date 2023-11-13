@@ -7,7 +7,7 @@ describe("login", () => {
     cy.get("#registerPassword").type("invalidPassword");
     cy.wait(500);
     cy.get("#registerForm > div.modal-footer > button.btn.btn-outline-success")
-      .first()
+      .eq(0)
       .click({ force: true });
     cy.wait(500);
     cy.get("#loginEmail").type("noroff@stud.noroff.no");
@@ -38,7 +38,7 @@ describe("login", () => {
     cy.wait(500);
     cy.get("#registerPassword").type("Password1234{enter}");
     cy.wait(500);
-    cy.get('button[data-auth="login"]').first().click({ force: true });
+    cy.get('button[data-auth="login"]').eq(1).click({ force: true });
     cy.wait(500);
     cy.get("#loginEmail").type("endtoendtest@noroff.no");
     cy.wait(500);
