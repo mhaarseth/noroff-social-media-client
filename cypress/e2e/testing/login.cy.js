@@ -2,7 +2,7 @@ describe("login", () => {
   it("should disallow login with invalid credentials, and show the user a message", () => {
     cy.wait(500);
     cy.visit("/");
-    cy.get("#registerForm>.modal-footer>button").eq(1).click();
+    cy.get("#registerForm>.modal-footer>button").eq(1).click({ force: true });
     cy.wait(500);
     /*
     cy.get("#loginEmail").type("noroff@stud.noroff.no");
