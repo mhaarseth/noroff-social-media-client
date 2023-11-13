@@ -4,7 +4,7 @@ describe("login", () => {
     cy.visit("/");
     cy.get("#registerModal").contains("Login").click();
     cy.wait(500);
-    /*
+    
     cy.get("#loginEmail").type("noroff@stud.noroff.no");
     cy.wait(500);
     cy.get("#loginPassword").type("invalidPassword{enter}");
@@ -40,6 +40,6 @@ describe("login", () => {
     cy.get("#loginPassword").type("Password1234{enter}");
     cy.url().should("include", "?view=profile&name=");
     cy.get('button[data-auth="logout"]').click();
-    cy.get("#registerForm").should("be.visible");*/
+    cy.get("#registerForm").should("be.visible");
   });
 });
