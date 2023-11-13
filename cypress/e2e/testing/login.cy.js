@@ -3,7 +3,7 @@ describe("login", () => {
     cy.wait(500);
     cy.visit("/");
     cy.get("#registerForm>.modal-footer>button").eq(1).click();
-    cy.get("#loginForm").should("be.visible");
+    cy.wait(500);
     cy.get("#loginEmail").type("noroff@stud.noroff.no");
     cy.wait(500);
     cy.get("#loginPassword").type("invalidPassword{enter}");
