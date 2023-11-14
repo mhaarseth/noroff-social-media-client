@@ -1,4 +1,4 @@
-# Workflow Course Assignment using the Noroff Social Media Client repo
+# **Workflow Course Assignment using the Noroff Social Media Client repo**
 
 ## Assignment brief and goal
 
@@ -8,15 +8,15 @@ Although Quality Assurance is a practice we should be concerned with throughout 
 
 ## How to run
 
-- npm install - installs all dependencies
-- npm run build - sets up sass to style bootstrap
+- *npm install* - installs all dependencies
+- *npm run build* - sets up sass to style bootstrap
 
-## Tests
+## Testing
 
-- npm run test-unit  
+- *npm run test-unit*  
 Tests if the login function stores a token when receiving valid login credentials.
 
-- npm run test-e2e / npm run test-e2e-cli  
+- *npm run test-e2e* / *npm run test-e2e-cli*  
 Tests whether the user can log in using valid credentials, seee their profile and then log out again. Also tests if the user is rejected and shown an error message, when inputting invalid or incorrect credentials.
 
 ## Tech stack
@@ -25,18 +25,20 @@ Tests whether the user can log in using valid credentials, seee their profile an
 * SASS
 * JS
 * Bootstrap
-* Jest
-* Cypress
 * Pretter
 * ESLint
+* Jest
+* Cypress
 
 [![HTML5](https://img.shields.io/badge/HTML5-e34f26.svg)](https://html5.org/)
-[![SASS](https://img.shields.io/badge/SASS-e34f26.svg)](https://sass-lang.com/)
 [![JS](https://img.shields.io/badge/JS-JavaScript-yellow.svg)](https://javascript.com/)
-[![Jest](https://img.shields.io/badge/Jest-Testing-yellow.svg)](https://jestjs.io/)
+[![SASS](https://img.shields.io/badge/SASS-e34f26.svg)](https://sass-lang.com/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-CSS-563d7c.svg)](https://getbootstrap.com/)
 [![Prettier](https://img.shields.io/badge/Prettier-code%20formatter-pink.svg)](https://prettier.io/)
 [![ESLint](https://img.shields.io/badge/ESLint-code%20linter-brightgreen.svg)](https://eslint.org/)
+[![Jest](https://img.shields.io/badge/Jest-Testing-yellow.svg)](https://jestjs.io/)
+[![Cypress](https://img.shields.io/badge/Cypress-Testing-brightgreen.svg)](https://www.cypress.io/)
+
 
 ## Status badges
 
