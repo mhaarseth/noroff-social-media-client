@@ -30,8 +30,8 @@ Tests whether the user can log in using valid credentials, seee their profile an
 * Pretter
 * ESLint
 
-[![HTML5](https://img.shields.io/badge/HTML5-CSS3-JavaScript-e34f26.svg)](https://html5.org/)
-[![SASS](https://img.shields.io/badge/SASS-CSS3-JavaScript-e34f26.svg)](https://sass-lang.com/)
+[![HTML5](https://img.shields.io/badge/HTML5-e34f26.svg)](https://html5.org/)
+[![SASS](https://img.shields.io/badge/SASS-e34f26.svg)](https://sass-lang.com/)
 [![JS](https://img.shields.io/badge/JS-JavaScript-yellow.svg)](https://javascript.com/)
 [![Jest](https://img.shields.io/badge/Jest-Testing-yellow.svg)](https://jestjs.io/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-CSS-563d7c.svg)](https://getbootstrap.com/)
