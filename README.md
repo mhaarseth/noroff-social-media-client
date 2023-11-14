@@ -8,25 +8,28 @@ Although Quality Assurance is a practice we should be concerned with throughout 
 
 ## How to run
 
-- *npm install* - installs all dependencies
-- *npm run build* - sets up sass to style bootstrap
+```bash
+npm install
+```
+Installs all dependencies  
+
+```bash
+npm run build
+```
+Sets up SASS to style bootstrap
 
 ## Testing
 
 ```bash
 npm run test-unit
 ```
-Tests if the login function stores a token when receiving valid login credentials.
+Tests if the login function stores a token when receiving valid login credentials.  
 
 ```bash
 npm run test-e2e
-```
-Tests whether the user can log in using valid credentials, see their profile and then log out again. Also tests if the user is rejected and shown an error message, when inputting invalid or incorrect credentials.
-
-```bash
 npm run test-e2e-cli
 ```
-Runs the above test, but in the terminal.
+Tests whether the user can log in using valid credentials, see their profile and then log out again. Also tests if the user is rejected and shown an error message, when inputting invalid or incorrect credentials.  
 
 
 ## Tech stack
