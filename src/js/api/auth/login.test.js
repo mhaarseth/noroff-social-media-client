@@ -19,6 +19,9 @@ describe("Login success", () => {
 
   it("stores a token when given valid credentials", async () => {
     await login("valid@mail.com", "validPassword");
-    expect(localStorage.setItem).toHaveBeenCalledWith("token", '"mockToken"');
+    expect(localStorage.setItem).toHaveBeenCalledWith(
+      "token",
+      JSON.stringify("mockToken"),
+    );
   });
 });
