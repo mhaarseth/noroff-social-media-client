@@ -13,10 +13,10 @@ Although Quality Assurance is a practice we should be concerned with throughout 
 
 ## Tests
 
-- npm run test-unit
+- npm run test-unit  
 Tests if the login function stores a token when receiving valid login credentials.
 
-- npm run test-e2e / npm run test-e2e-cli
+- npm run test-e2e / npm run test-e2e-cli  
 Tests whether the user can log in using valid credentials, seee their profile and then log out again. Also tests if the user is rejected and shown an error message, when inputting invalid or incorrect credentials.
 
 ## Tech stack
