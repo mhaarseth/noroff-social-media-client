@@ -16,7 +16,7 @@ Installs all dependencies
 ```bash
 npm run build
 ```
-Sets up SASS to style bootstrap
+Sets up SASS to style bootstrap  
 
 ## Testing
 
@@ -24,7 +24,7 @@ Sets up SASS to style bootstrap
 npm run test-unit
 ```
 Tests if the login function stores a token when receiving valid login credentials.  
-
+  
 ```bash
 npm run test-e2e
 npm run test-e2e-cli
@@ -41,7 +41,7 @@ Tests whether the user can log in using valid credentials, see their profile and
 * Pretter
 * ESLint
 * Jest
-* Cypress
+* Cypress  
 
 [![HTML5](https://img.shields.io/badge/HTML5-e34f26.svg)](https://html5.org/)
 [![JS](https://img.shields.io/badge/JS-JavaScript-yellow.svg)](https://javascript.com/)
