@@ -1,4 +1,9 @@
 # **Workflow Course Assignment using the Noroff Social Media Client repo**
+[![Deploy static content to Pages](https://github.com/mhaarseth/noroff-social-media-client/actions/workflows/pages.yml/badge.svg)](https://github.com/mhaarseth/noroff-social-media-client/actions/workflows/pages.yml)
+
+[![Automated Unit Testing](https://github.com/mhaarseth/noroff-social-media-client/actions/workflows/unit-tests.yml/badge.svg?branch=workflow)](https://github.com/mhaarseth/noroff-social-media-client/actions/workflows/unit-tests.yml)
+
+[![Automated E2E Testing](https://github.com/mhaarseth/noroff-social-media-client/actions/workflows/e2e-test.yml/badge.svg)](https://github.com/mhaarseth/noroff-social-media-client/actions/workflows/e2e-test.yml)  
 
 ## Assignment brief and goal
 
@@ -51,12 +56,3 @@ Tests whether the user can log in using valid credentials, see their profile and
 [![ESLint](https://img.shields.io/badge/ESLint-code%20linter-brightgreen.svg)](https://eslint.org/)
 [![Jest](https://img.shields.io/badge/Jest-Testing-yellow.svg)](https://jestjs.io/)
 [![Cypress](https://img.shields.io/badge/Cypress-Testing-brightgreen.svg)](https://www.cypress.io/)
-
-
-## Status badges
-
-[![Deploy static content to Pages](https://github.com/mhaarseth/noroff-social-media-client/actions/workflows/pages.yml/badge.svg)](https://github.com/mhaarseth/noroff-social-media-client/actions/workflows/pages.yml)
-
-[![Automated Unit Testing](https://github.com/mhaarseth/noroff-social-media-client/actions/workflows/unit-tests.yml/badge.svg?branch=workflow)](https://github.com/mhaarseth/noroff-social-media-client/actions/workflows/unit-tests.yml)
-
-[![Automated E2E Testing](https://github.com/mhaarseth/noroff-social-media-client/actions/workflows/e2e-test.yml/badge.svg)](https://github.com/mhaarseth/noroff-social-media-client/actions/workflows/e2e-test.yml)
